@@ -5,6 +5,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    globalhost:'http://localhost:8686/',
+    selectedArray:[]
   },
   mutations: {
   },
